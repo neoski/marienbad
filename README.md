@@ -22,8 +22,8 @@ You can find it by typing `man curses` on your shell.
 Then replace `# include <ncurses.h>` and `# include <curses.h>` by the good path in `include/allum.h`.*
 
 
-*Author :* Sebastien S.
+**Author :** Sebastien S.
 
-*Github repository :* https://github.com/neoski/marienbad.
+**Github repository :** https://github.com/neoski/marienbad.
 
-*Made in february 2015.*
+**Made in february 2015.**
