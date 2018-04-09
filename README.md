@@ -6,6 +6,8 @@ There is a text version in the repository `text-version`.
 
 **Requirements :**
 
+make
+
 gcc
 
 **Usage :**
