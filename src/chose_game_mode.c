@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 static int	move_game_mode(t_struct *s, char **str, int key)
 {
@@ -38,7 +38,7 @@ int	chose_game_mode(t_struct *s, int key)
   str[1] = "Player vs Bot";
   str[2] = "Bot1 vs Bot2";
   str[3] = "Quit";
-  mvwprintw(s->game, 4, 6, "Allum1 : Chose game mode :");
+  mvwprintw(s->game, 4, 6, "Chose game mode :");
   mvwprintw(s->game, 14, 6, "Use directional keys to move.");
   mvwprintw(s->game, 15, 6, "Press ENTER to chose.");
   move_game_mode(s, str, 0);

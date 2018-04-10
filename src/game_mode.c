@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 int	player_vs_player(t_struct *s, t_list *list, int key, int lock)
 {

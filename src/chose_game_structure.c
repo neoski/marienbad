@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 static int	move_chose_form(t_struct *s, char **str, int *c)
 {
@@ -21,7 +21,7 @@ static int	move_chose_form(t_struct *s, char **str, int *c)
 
 static int	print_chose_form(t_struct *s)
 {
-  mvwprintw(s->game, 4, 6, "Allum1 : Chose game structure :");
+  mvwprintw(s->game, 4, 6, "Chose game structure :");
   mvwprintw(s->game, 14, 6, "Use directional keys to move.");
   mvwprintw(s->game, 15, 6, "Press ENTER to chose.");
   mvwprintw(s->game, 16, 6, "Press b to go back.");

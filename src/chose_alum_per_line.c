@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 static int	save_nb(t_struct *s, int key, int *i)
 {
@@ -43,10 +43,9 @@ int	chose_alum_per_line(t_struct *s, int key, int i)
 {
   s->al_per_line = 0;
   wclear(s->game);
-  mvwprintw(s->game, 4, 6, "Allum1 :");
-  mvwprintw(s->game, 6, 6, "Nb matches per line you wanna play with :");
-  mvwprintw(s->game, 7, 6, "Nb (MAX 23) :");
-  mvwprintw(s->game, 9, 6, "/* Type a nb between 2 and 23 */");
+  mvwprintw(s->game, 4, 6, "Enter the number of lines in the game.");
+  mvwprintw(s->game, 7, 6, "Nb (MAX 12) :");
+  mvwprintw(s->game, 9, 6, "/* Type a nb between 2 and 12 */");
   mvwprintw(s->game, 15, 6, "Press ENTER to confirm.");
   mvwprintw(s->game, 16, 6, "Press b to go back");
   wrefresh(s->game);

@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 int		build_list_rectangle(t_struct *s, int x, int y, int max)
 {

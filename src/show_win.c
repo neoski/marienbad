@@ -1,25 +1,25 @@
 #include <time.h>
-#include "allum.h"
+#include "marienbad.h"
 
 static int	show_winner(t_struct *s)
 {
   if (s->turn == 1)
     {
       if (s->mode == 0)
-        print_whereami(s->game, 4, 6, "Allum1 : Player 1 WINS !");
+        print_whereami(s->game, 4, 6, "Player 1 WINS !");
       if (s->mode == 1)
-        print_whereami(s->game, 4, 6, "Allum1 : You WIN !");
+        print_whereami(s->game, 4, 6, "You WIN !");
       if (s->mode == 2)
-        print_whereami(s->game, 4, 6, "Allum1 : Bot1 WINS !");
+        print_whereami(s->game, 4, 6, "Bot1 WINS !");
     }
   else
     {
       if (s->mode == 0)
-        print_whereami(s->game, 4, 6, "Allum1 : Player 2 WINS !");
+        print_whereami(s->game, 4, 6, "Player 2 WINS !");
       if (s->mode == 1)
-        print_whereami(s->game, 4, 6, "Allum1 : Bot WINS !");
+        print_whereami(s->game, 4, 6, "Bot WINS !");
       if (s->mode == 2)
-        print_whereami(s->game, 4, 6, "Allum1 : Bot2 WINS !");
+        print_whereami(s->game, 4, 6, "Bot2 WINS !");
     }
   return (0);
 }

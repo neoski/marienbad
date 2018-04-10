@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 int		print_opti(t_struct *s, t_list *list)
 {

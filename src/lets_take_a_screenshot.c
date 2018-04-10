@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include "allum.h"
+#include "marienbad.h"
 
 static int	show_top(t_struct *s)
 {

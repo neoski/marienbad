@@ -1,14 +1,4 @@
-/*
-** case_marienbad.c for case_marienbad in /home/stoilo_s/CPE_2014_allum1
-** 
-** Made by sebastien stoilov
-** Login   <stoilo_s@epitech.net>
-** 
-** Started on  Tue Feb 17 20:41:32 2015 sebastien stoilov
-** Last update Wed Feb 18 05:28:29 2015 sebastien stoilov
-*/
-
-#include "allum.h"
+#include "marienbad.h"
 
 int	calc_nb_lines(t_list *tmp, t_list *list, int i)
 {

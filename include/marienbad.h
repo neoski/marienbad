@@ -1,5 +1,5 @@
-#ifndef ALLUM_H_
-# define ALLUM_H_
+#ifndef MARIENBAD_H_
+# define MARIENBAD_H_
 
 # define ENTER 10
 # define ESCAPE 27
@@ -72,4 +72,4 @@ int	print_screenshot(WINDOW *w, char *str);
 char	**my_double_malloc(char **str, int sizeb, int size);
 int	my_double_free(char **str);
 
-#endif /* !ALLUM_H_ */
+#endif /* !MARIENBAD_H_ */

@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 int	color_print_nb(WINDOW *w, int y, int x, int key)
 {
@@ -51,8 +51,7 @@ int	chose_alum_nb(t_struct *s, int key, int i, int choice)
 {
   s->line = 0;
   wclear(s->game);
-  mvwprintw(s->game, 4, 6, "Allum1 :");
-  mvwprintw(s->game, 6, 6, "Nb lines matches you wanna play with :");
+  mvwprintw(s->game, 4, 6, "Enter the number of lines in the game.");
   mvwprintw(s->game, 7, 6, "Nb (MAX 12) :");
   mvwprintw(s->game, 9, 6, "/* Type a nb between 2 and 12 */");
   mvwprintw(s->game, 15, 6, "Press ENTER to confirm.");

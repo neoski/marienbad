@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 int	print_screenshot(WINDOW *w, char *str)
 {

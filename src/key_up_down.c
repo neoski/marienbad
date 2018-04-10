@@ -1,4 +1,4 @@
-#include "allum.h"
+#include "marienbad.h"
 
 int	key_up(t_list *tmp, t_list *list, int y)
 {

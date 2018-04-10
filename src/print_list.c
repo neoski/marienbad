@@ -1,25 +1,25 @@
-#include "allum.h"
+#include "marienbad.h"
 
 int	change_turn(t_struct *s)
 {
   if (s->turn == 1)
     {
       if (s->mode == 0)
-	print_whereami(s->game, 3, 13, "Player 1");
+	print_whereami(s->game, 3, 15, "Player 1");
       if (s->mode == 1)
-	print_whereami(s->game, 3, 13, "Your Turn");
+	print_whereami(s->game, 3, 15, "Your Turn");
       if (s->mode == 2)
-	print_whereami(s->game, 3, 13, "Bot1 is thinking");
+	print_whereami(s->game, 3, 15, "Bot1 is thinking");
       s->turn = 2;
     }
   else
     {
       if (s->mode == 0)
-        print_whereami(s->game, 3, 13, "Player 2");
+        print_whereami(s->game, 3, 15, "Player 2");
       if (s->mode == 1)
-	print_whereami(s->game, 3, 13, "Bot is thinking");
+	print_whereami(s->game, 3, 15, "Bot is thinking");
       if (s->mode == 2)
-	print_whereami(s->game, 3, 13, "Bot2 is thinking");
+	print_whereami(s->game, 3, 15, "Bot2 is thinking");
       s->turn= 1;
     }
   return (0);
@@ -49,13 +49,13 @@ int		print_list(t_struct *s, t_list *list, int i)
   t_list	*temp;
 
   wclear(s->game);
-  mvwprintw(s->game, 3, 4, "Allum1 :");
+  mvwprintw(s->game, 3, 3, "Marienbad :");
   if (s->mode != 2)
     {
       mvwprintw(s->game, 19, 4, "Use directional keys to move.");
       mvwprintw(s->game, 20, 4, "Press SPACE to select matches on a line.");
       mvwprintw(s->game, 21, 4, "Press ENTER to delete selected matches.");
-      mvwprintw(s->game, 22, 4, "Press s to take a screenshot.");
+      /*mvwprintw(s->game, 22, 4, "Press s to take a screenshot.");*/
     }
   else
     mvwprintw(s->game, 19, 4, "Bots are playing. Have fun as watching ! :D");
