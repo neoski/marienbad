@@ -28,4 +28,4 @@ Then replace `# include <ncurses.h>` and `# include <curses.h>` by the good path
 
 **Github repository :** https://github.com/neoski/marienbad.
 
-**Made in february 2015.**
+**Made during my studies in february 2015.**
