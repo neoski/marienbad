@@ -1,8 +1,10 @@
 # marienbad
 
-You can find here a marienbad game (called also NIM) encoded in C language with 3 bots lvl (easy, medium, hard).
+You can find here a marienbad game (called also NIM) encoded in C language with 3 bots lvl (easy, medium, hard) with the ncurses library.
 
-There is a text version in the repository `text-version`.
+<img alt="Marienbad demo" src="https://thumbs.gfycat.com/ScaredSpicyBactrian-size_restricted.gif" height="330px"/>
+
+There is also a text version in the repository `text-version`.
 
 **Requirements :**
 
