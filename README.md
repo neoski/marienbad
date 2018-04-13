@@ -30,6 +30,6 @@ Then replace `# include <ncurses.h>` and `# include <curses.h>` by the good path
 
 **Author :** Sebastien S.
 
-**Github repository :** https://github.com/neoski/marienbad.
+**Github repository :** https://github.com/neoski/marienbad
 
 Made during my studies in february 2015.
