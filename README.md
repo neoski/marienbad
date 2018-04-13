@@ -2,9 +2,9 @@
 
 You can find here a marienbad game (called also NIM) coded in C language with 3 different AI lvl (easy, medium, hard) with the ncurses library.
 
-I coded this project during my studies, basically the aim was to create a text-version marienbad with an IA. I went further and made it more user-friendly with a better graphical approach using the ncurses library and added other features including 3 IAS lvl, 3 games mode (Player vs IA, Player vs Player, IA vs IA), 2 different game structures (Rectange/Pyramid), the choice of the structure size, screenshots for LINUX OS (for fun, with a `fork`/`execvp` on `import`), menus and game duration.
-
 <img alt="Marienbad demo" src="https://thumbs.gfycat.com/ScaredSpicyBactrian-size_restricted.gif" height="330px"/>
+
+I coded this project during my studies, basically the aim was to create a text-version marienbad with an IA. I went further and made it more user-friendly with a better graphical approach using the ncurses library and added other features including 3 IAS lvl, 3 games mode (Player vs IA, Player vs Player, IA vs IA), 2 different game structures (Rectange/Pyramid), the choice of the structure size, screenshots for LINUX OS (for fun, with a `fork`/`execvp` on `import`), menus and game duration.
 
 I also made in pararell the basic mandatory text-version which is accessible in the repository `text-version`.
 
